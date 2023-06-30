@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "common-js": "^0.3.8",
     "simple-git": "^3.19.1",
     "typescript": "^5.1.6"
   },
