@@ -1,0 +1,17 @@
+D:\GitHub\GeradorVersao\GeradorVersao\GeradorVersao\bin\Debug\net6.0-windows\GeradorVersao.exe
+D:\GitHub\GeradorVersao\GeradorVersao\GeradorVersao\bin\Debug\net6.0-windows\GeradorVersao.deps.json
+D:\GitHub\GeradorVersao\GeradorVersao\GeradorVersao\bin\Debug\net6.0-windows\GeradorVersao.runtimeconfig.json
+D:\GitHub\GeradorVersao\GeradorVersao\GeradorVersao\bin\Debug\net6.0-windows\GeradorVersao.dll
+D:\GitHub\GeradorVersao\GeradorVersao\GeradorVersao\bin\Debug\net6.0-windows\GeradorVersao.pdb
+D:\GitHub\GeradorVersao\GeradorVersao\GeradorVersao\obj\Debug\net6.0-windows\GeradorVersao.csproj.AssemblyReference.cache
+D:\GitHub\GeradorVersao\GeradorVersao\GeradorVersao\obj\Debug\net6.0-windows\GeradorVersao.Form1.resources
+D:\GitHub\GeradorVersao\GeradorVersao\GeradorVersao\obj\Debug\net6.0-windows\GeradorVersao.csproj.GenerateResource.cache
+D:\GitHub\GeradorVersao\GeradorVersao\GeradorVersao\obj\Debug\net6.0-windows\GeradorVersao.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\GeradorVersao\GeradorVersao\GeradorVersao\obj\Debug\net6.0-windows\GeradorVersao.AssemblyInfoInputs.cache
+D:\GitHub\GeradorVersao\GeradorVersao\GeradorVersao\obj\Debug\net6.0-windows\GeradorVersao.AssemblyInfo.cs
+D:\GitHub\GeradorVersao\GeradorVersao\GeradorVersao\obj\Debug\net6.0-windows\GeradorVersao.csproj.CoreCompileInputs.cache
+D:\GitHub\GeradorVersao\GeradorVersao\GeradorVersao\obj\Debug\net6.0-windows\GeradorVersao.dll
+D:\GitHub\GeradorVersao\GeradorVersao\GeradorVersao\obj\Debug\net6.0-windows\refint\GeradorVersao.dll
+D:\GitHub\GeradorVersao\GeradorVersao\GeradorVersao\obj\Debug\net6.0-windows\GeradorVersao.pdb
+D:\GitHub\GeradorVersao\GeradorVersao\GeradorVersao\obj\Debug\net6.0-windows\GeradorVersao.genruntimeconfig.cache
+D:\GitHub\GeradorVersao\GeradorVersao\GeradorVersao\obj\Debug\net6.0-windows\ref\GeradorVersao.dll
