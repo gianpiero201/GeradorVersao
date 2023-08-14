@@ -1,3 +1,7 @@
+using GeradorVersao.Infra.Git.Services.GitReposService;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+
 namespace GeradorVersao.Domain
 {
     internal static class Program
@@ -10,8 +14,20 @@ namespace GeradorVersao.Domain
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
+            var host = CreateHostBuilder().Build();
+            ServiceProvider = host.Services;
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Application.Run(ServiceProvider.GetRequiredService<Form1>());
+        }
+
+        public static IServiceProvider? ServiceProvider { get; private set; }
+        static IHostBuilder CreateHostBuilder()
+        {
+            return Host.CreateDefaultBuilder()
+                .ConfigureServices((context, services) => {
+                    services.AddTransient<IGitReposService, GitReposService>();
+                    services.AddTransient<Form1>();
+                });
         }
     }
 }
