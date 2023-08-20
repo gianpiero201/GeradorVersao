@@ -17,7 +17,7 @@ namespace GeradorVersao.Domain
             var host = CreateHostBuilder().Build();
             ServiceProvider = host.Services;
             ApplicationConfiguration.Initialize();
-            Application.Run(ServiceProvider.GetRequiredService<Form1>());
+            System.Windows.Forms.Application.Run(ServiceProvider.GetRequiredService<Principal>());
         }
 
         public static IServiceProvider? ServiceProvider { get; private set; }
@@ -26,7 +26,7 @@ namespace GeradorVersao.Domain
             return Host.CreateDefaultBuilder()
                 .ConfigureServices((context, services) => {
                     services.AddTransient<IGitReposService, GitReposService>();
-                    services.AddTransient<Form1>();
+                    services.AddTransient<Principal>();
                 });
         }
     }

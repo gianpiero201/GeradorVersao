@@ -1,20 +1,22 @@
+using GeradorVersao.Application;
 using GeradorVersao.Infra.Git.Services.GitReposService;
 using Newtonsoft.Json;
 
 namespace GeradorVersao
 {
-    public partial class Form1 : Form
+    public partial class Principal : Form
     {
         private readonly IGitReposService GitReposService;
-        public Form1(IGitReposService gitReposService)
+        public Principal(IGitReposService gitReposService)
         {
             InitializeComponent();
             GitReposService = gitReposService;
+            LoadTabs();
         }
 
-        private void btnGian_Click(object sender, EventArgs e)
+        public void LoadTabs()
         {
-            JsonConvert.SerializeObject(GitReposService.GetRepository("https://github.com/gianpiero201/ChatApp.git"));
+            tbGerar.Controls.Add(new TelaGerar());
         }
     }
 }
