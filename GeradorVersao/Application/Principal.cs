@@ -17,6 +17,7 @@ namespace GeradorVersao
         public void LoadTabs()
         {
             tbGerar.Controls.Add(new TelaGerar());
+            tbProjetos.Controls.Add(new ProjetosList());
         }
     }
 }

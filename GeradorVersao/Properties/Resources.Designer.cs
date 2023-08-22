@@ -73,6 +73,16 @@ namespace GeradorVersao.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_pesquisar {
+            get {
+                object obj = ResourceManager.GetObject("icons8-pesquisar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_selecionado {
             get {
                 object obj = ResourceManager.GetObject("icons8_selecionado", resourceCulture);

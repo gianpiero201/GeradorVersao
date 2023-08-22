@@ -16,5 +16,11 @@ namespace GeradorVersao.Application
         {
             InitializeComponent();
         }
+
+        private void BtnAddProjeto_Click(object sender, EventArgs e)
+        {
+            var newProjeto = new AddProjeto();
+            newProjeto.ShowDialog();
+        }
     }
 }

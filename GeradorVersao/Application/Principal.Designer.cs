@@ -62,7 +62,7 @@
             this.tbDeploy.Location = new System.Drawing.Point(4, 24);
             this.tbDeploy.Name = "tbDeploy";
             this.tbDeploy.Padding = new System.Windows.Forms.Padding(3);
-            this.tbDeploy.Size = new System.Drawing.Size(284, 352);
+            this.tbDeploy.Size = new System.Drawing.Size(278, 353);
             this.tbDeploy.TabIndex = 1;
             this.tbDeploy.Text = "Deploy";
             // 
@@ -72,7 +72,7 @@
             this.tbProjetos.Location = new System.Drawing.Point(4, 24);
             this.tbProjetos.Name = "tbProjetos";
             this.tbProjetos.Padding = new System.Windows.Forms.Padding(3);
-            this.tbProjetos.Size = new System.Drawing.Size(284, 352);
+            this.tbProjetos.Size = new System.Drawing.Size(278, 353);
             this.tbProjetos.TabIndex = 2;
             this.tbProjetos.Text = "Projetos";
             // 
@@ -83,8 +83,12 @@
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(285, 380);
             this.Controls.Add(this.tbControl);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(301, 419);
+            this.MinimumSize = new System.Drawing.Size(301, 419);
             this.Name = "Principal";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Gerador de Versão";
             this.tbControl.ResumeLayout(false);
             this.ResumeLayout(false);
 
